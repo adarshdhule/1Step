@@ -1,0 +1,41 @@
+
+<ion-tabs #tabs (ionTabsDidChange)="setCurrentTab()">
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button id="button" tab="dashboard" tabIcon="tab1" >
+      <div class="iconContainer" *ngIf="selectedTab === 'dashboard'">
+        <img src="assets/icon/home active.png" class="iconHome" >
+        <span class="strike" ></span>
+      </div>
+      <img *ngIf="selectedTab != 'dashboard'" src="assets/icon/home.png"  class="Icon">
+    </ion-tab-button>
+    <ion-tab-button id="button" tab="stats" tabIcon="tab2" >
+      <div class="iconContainer" *ngIf="selectedTab === 'stats'">
+        <img src="assets/icon/statistics active.png" class="iconStats" >
+        <span class="strike" ></span>
+      </div>
+      <img *ngIf="selectedTab != 'stats'" src="assets/icon/statistics.png"  class="Icon">
+    </ion-tab-button>
+    <ion-tab-button id="button" tab="team" tabIcon="tab3" >
+      <div class="iconContainer" *ngIf="selectedTab === 'team'">
+        <img src="assets/icon/team active.png" class="iconTeam" >
+        <span class="strike" ></span>
+      </div>
+      
+      <img *ngIf="selectedTab != 'team'" src="assets/icon/team.png"  class="Icon">
+    </ion-tab-button>
+    <ion-tab-button id="button" tab="leaderboard" tabIcon="tab4" >
+      <div class="iconContainer" *ngIf="selectedTab === 'leaderboard'">
+        <img src="assets/icon/leadboard active.png" class="iconLeaderboard" >
+        <span class="strike" ></span>
+      </div>
+      <img *ngIf="selectedTab != 'leaderboard'" src="assets/icon/leaderboard.png"  class="Icon">
+    </ion-tab-button>
+    <ion-tab-button id="button" tab="profile" tabIcon="tab5" >
+      <div class="iconContainer" *ngIf="selectedTab === 'profile'">
+        <img src="assets/icon/profile active.png" class="iconProfile" >
+        <span class="strike" ></span>
+      </div>
+      <img *ngIf="selectedTab != 'profile'" src="assets/icon/profile.png"  class="Icon">
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

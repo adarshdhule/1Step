@@ -1,0 +1,61 @@
+
+<ion-content [fullscreen]="true" scroll-y="false" class="ion-padding ion-item-center">
+  <ion-slides #theSlides>
+    <!--slide 1-->
+    <ion-slide class="page-header">
+      <img class="activity--icon" style="padding-top: 15%;" src="assets/images/well being.png" alt="img1">
+      <p class="target--label" style="margin-top: 50px;">Towards your Well-being</p>
+      <p class="message">The best walk to offset your tension is with physical activities.<br><br> Life has no remote, get up and change it<br> yourself.</p>
+      <div class="footer">
+        <div class="pager">
+          <div class="pagerActive"></div>
+          <div class="pagerInActive"></div>
+          <div class="pagerInActive"></div>
+        </div>
+      
+        <div class="divbtn">
+          <button class="skip--button" style="float: left;" (click)="goToHome()">Skip</button>
+          <button class="target--button" (click)="moveToNext(theSlides)">Next</button>
+        </div>
+      </div>
+    </ion-slide>
+
+    <!-- slide 2 -->
+    <ion-slide>
+      <img class="activity--icon" style="padding-top: 15%;" src="assets/images/sync progress.png" alt="img2">
+      <p class="target--label">Sync your Progress</p>
+      <p class="message">Track your steps while contributing for a cause.</p>
+      <p class="message">Compete to claim the leaderboards and be among the <span style="color: #006FBA;">#MilesSuperhero</span></p>
+      <div class="footer">
+        <div class="pager">
+          <div class="pagerInActive"></div>
+          <div class="pagerActive"></div>
+          <div class="pagerInActive"></div>
+        </div>
+        <div class="divbtn">
+          <button class="skip--button" style="float: left;" (click)="goToHome()">Skip</button>
+          <button class="target--button" (click)="moveToNext(theSlides)">Next</button>
+        </div>
+      </div>
+    </ion-slide>
+
+    <!-- slide 3 -->
+    <ion-slide>
+      <img class="activity--icon" style="padding-top: 15%;" src="assets/images/join cause.png" alt="img2">
+      <p class="target--label">Join for a Cause</p>
+      <p class="message">Your commitment towards a healthy lifestyle can act as a catalyst for a greener Earth.</p>
+      <p class="message"> For every 1 marathon or equivalent, we will dedicate a trees for <span style="color:#16BF17 ;">#GreenTomorrow</span></p>
+      <div class="footer">
+        <div class="pager">
+          <div class="pagerInActive"></div>
+          <div class="pagerInActive"></div>
+          <div class="pagerActive"></div>
+        </div>
+        <div class="divbtn">
+          <button class="getStarted--button"  (click)="goToHome()">Get Started</button>
+        </div>
+      </div>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

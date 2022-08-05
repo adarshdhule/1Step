@@ -1,0 +1,123 @@
+ion-content{
+    --background: #FFFFFF;
+}
+.activity-icon{
+
+width: auto;
+height: 40vh;
+
+
+}
+
+.swiper-slide img {
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    max-height: 50%;
+}
+
+.target--label{
+    margin-top: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    font: normal normal bold 24px/29px Bw Modelica;
+    letter-spacing: 0px;
+    color: #212121;
+    opacity: 1;
+    /* UI Properties */
+    text-align: center;
+}
+
+.message {
+    color: black;
+    text-align: center;
+    
+    margin-top: 16px;
+    font: normal normal normal 16px/24px Bw Modelica;
+    // width: 352px;
+    // height: 120px;
+    
+
+}
+
+ion-slides {
+    height: 98%;
+}
+
+.swiper-slide {
+    display: block;
+    overflow: scroll;
+}
+
+.footer {
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.pager {
+    display: flex;
+    justify-content: center;
+
+    div {
+        height: 7px;
+        border-radius: 10px;
+        position: relative;
+        text-align: center;
+        margin: 1%;
+    }
+}
+
+.pagerActive {
+    background: #41B000;
+    height: 7px;
+    width: 18px;
+    opacity: 100%;
+}
+
+.pagerInActive {
+    background: #41B000;
+    opacity: 60%;
+    height: 7px;
+    width: 5px;
+}
+
+.target--button {
+    float: right;
+    color: white;
+    // padding: 10px;
+    margin-right: 5%;
+    width: 25%;
+    height: 40px;
+    background: #006FBA 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.skip--button {
+    float: right;
+    background-color: white;
+    padding: 10px;
+    margin-left: 5%;
+    font-size: medium;
+    width: 99px;
+    height: 42px;
+    text-align: left;
+    font: normal normal medium 18px/22px Bw Modelica;
+    letter-spacing: 0px;
+    color: #006FBA;
+    opacity: 1;
+}
+
+.getStarted--button{
+    width: 40%;
+    height: 40px;
+    background: #006FBA 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal medium 18px/24px Bw Modelica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}

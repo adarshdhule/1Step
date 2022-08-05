@@ -1,0 +1,127 @@
+ion-content{
+    --background:#00008C;
+    position: relative;
+}
+.title{
+    margin-top: 60px;
+    font: 35px/42px Bw Modelica;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.step-logo{
+    position: relative;
+    float: right;
+    top: 16px;
+    right: 16px;
+    width: 85px;
+    height: 48px;
+}
+.corner-down{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;   
+}
+
+.corner-up{
+    position: relative;
+    top: 0px;
+    left: opx;
+}
+
+.logo{
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 16px;
+    width: 83px;
+    height: 77px;
+
+}
+
+.three-logo{
+    display: flex;
+   
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    .eee-logo{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: -2%;
+        
+        img{
+            height: 64px;
+            width: 64px;
+        }
+        p{  
+            display: flex;
+            font: normal normal normal 15px/18px Bw Modelica;
+            font-weight: 250;
+            letter-spacing: 0.3px;
+            color: #FFFFFF;
+            opacity: 80%;
+        }
+    }    
+}
+
+.tag-line{
+    display: flex;
+    justify-content: center;
+    margin-bottom:22px ;
+    margin-top: 22px;
+    p{
+        width: 146px;
+        height: 22px;
+        text-align: center;
+        font: normal normal normal 18px/22px Bw Modelica;
+        font-weight: 250;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 80%;
+    }
+}
+
+.strike {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-align: center;
+    font: normal normal normal 18px/22px Bw Modelica;
+    font-weight: 250;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 80%;
+    margin-bottom:22px;
+    margin-top: 22px;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background: #fff;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
