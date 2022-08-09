@@ -12,4 +12,12 @@ export class DashboardTabPage implements OnInit {
   ngOnInit() {
   }
 
+  openProgress() {
+    var x = document.getElementById("progress");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 }
